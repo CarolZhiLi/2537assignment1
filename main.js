@@ -167,7 +167,7 @@ app.get('/members', (req,res) => {
     console.log(name);
     res.send(`Hello, ${name}. <br>
         <img src="${randomImage}" alt="Image" /> <br>
-        <button onclick='window.location.href = "/"'>Sign out</button>
+        <button onclick='window.location.href = "/logout"'>Sign out</button>
     `);
 });
 
